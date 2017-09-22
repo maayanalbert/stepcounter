@@ -1,0 +1,2 @@
+# stepcounter
+A step counter created using Processing for Android. Steps are counted by signal processing the device's accelerometer data through a combination of peak finding, standard deviation filtering, and zero crossing. To keep steps from being double counted, a boolean value is set to be false if a step has already been counted and the accelerometer value has not yet crossed the zero point.
